@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: monospace;
+        }
+
+        body {
+            font-family: monospace;
+            line-height: 1.6;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            padding: .5rem 5%;
+            align-items: center;
+        }
+
+        .logo {
+            font-family: 'Dancing Script', cursive;
+            font-size: 4rem;
+            text-decoration: none;
+            color: black;
+            cursor: pointer;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 5rem;
+            font-size: 25px;
+            font-weight: 600;
+            letter-spacing: .1rem;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: black;
+            text-transform: uppercase;
+            font-size: 0.9rem;
+        }
+
+        .nav-links a:hover {
+            color: blue;
+        }
+
+        .home {
+            background-color: #F3EFE2;
+            padding: 3rem 5%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .home-image {
+            border-radius: 2rem;
+            padding: 2rem;
+            
+            
+        }
+
+        .home-image img {
+            width: 500px;
+            height: auto;
+        }
+
+        .home-content h1 {
+            font-family: 'Dancing Script', cursive;
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .home-content p {
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 0.8rem 2rem;
+            background: #000;
+            color: white;
+            background-color: blue;
+            text-decoration: none;
+            border-radius: 2rem;
+            margin-top: 1rem;
+        }
+
+        .btn:hover {
+            background-color: white;
+            color: black;
+            border: 5px solid blue;
+        }
+
+        .banner {
+            background-color: #EDFFAB;
+            letter-spacing: .1rem;
+            font-weight: 700;
+        }
+
+        .banner p {
+            display: flex;
+            justify-content: center;
+        }
+
+        .categories {
+            padding: 4rem 5%;
+            text-align: center;
+            background-color: #F3EFE2;
+        }
+
+        .category-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .category-item {
+            text-align: center;
+        }
+
+        .category-item img {
+            width: 350px;
+            height: auto;
+            border-radius: 50%;
+            cursor: pointer;
+        
+        }
+
+        .category-item button {
+            font-size: 15px;
+            display: flex;
+            margin-left: 170px;
+            padding: 0.8rem 2rem;
+            background: #000;
+            color: white;
+            background-color: blue;
+            text-decoration: none;
+            border-radius: 2rem;
+            margin-top: 1rem;
+            cursor: pointer;
+
+        }
+
+        .category-item button:hover {
+            background-color: white;
+            color: black;
+            border: 5px solid blue;
+        }
+
+        .about {
+            background: #e6eef4;
+            padding: 2rem 5%;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        .about-content {
+            padding-right: 2rem;
+            
+        }
+
+        .about-content h2 {
+            font-family: monospace;
+            font-weight: 900;
+            font-size: 27px;
+            color: rgb(8, 8, 98);
+        }
+
+        .about-content p {
+            font-family: monospace;
+            font-weight: lighter;
+            font-size: 16px;
+        }
+        .about-image {
+            
+            border-radius: 3rem;
+        }
+
+        .about-image img {
+            width: 350px;
+            height: auto;
+        }
+
+        footer {
+            background: #ffe4e1;
+            padding: 2rem 5%;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 2rem;
+        }
+
+        .footer-section img {
+            width: 180px;
+            height: auto;
+            cursor: pointer;
+        }
+
+        .footer-section h3, p {
+            margin-bottom: 1rem;
+            letter-spacing: .1rem;
+            cursor: pointer;
+        }
+
+
+        .footer-section a {
+            display: block;
+            color: black;
+            text-decoration: none;
+            margin-bottom: 0.5rem;
+        }
+
+        .footer-section a:hover {
+            color: blue;
+        }
+
+        @media (max-width: 768px) {
+            .hero, .about {
+                grid-template-columns: 1fr;
+            }
+            
+            .category-grid {
+                grid-template-columns: 1fr;
+            }
+
+            footer {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
