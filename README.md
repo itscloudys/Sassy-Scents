@@ -4,6 +4,8 @@ Sassy Scents is a fun and vibrant candle website designed to bring personality a
 
 Built with creativity and charm, this website combines sleek design with user-friendly functionality to showcase an exciting collection of candles. Dive in, explore, and find your signature scent that’s as sassy as you are!
 
+file:///C:/Users/Samsung/Desktop/software%20engineer/projects/candle%20website/index.html
+
 ![img alt](https://github.com/itscloudys/Sassy-Scents/blob/main/Screenshot%202025-01-06%20184929.png?raw=true)
 ![img alt](https://github.com/itscloudys/Sassy-Scents/blob/main/Screenshot%202025-01-06%20192053.png?raw=true)
 ![img alt](https://github.com/itscloudys/Sassy-Scents/blob/main/Screenshot%202025-01-06%20192126.png?raw=true)
